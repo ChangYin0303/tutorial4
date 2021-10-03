@@ -11,4 +11,11 @@ class TestCalc {
         int c = Calc.add(a,b);
         assertEquals(11,c);
     }
+    @org.junit.jupiter.api.Test
+    public void TestSubtract() {
+        int a =5;
+        int b = 6;
+        int c = Calc.add(a,b);
+        assertEquals(-1,c);
+    }
 }
